@@ -1,43 +1,117 @@
-                                .container {
-                                    border: 0px solid black;
-                                }
-                                
-                                .row {
-                                    border: 0px solid red;
-                                }
-                                
-                                .col,
-                                .col-1,
-                                .col-2,
-                                .col-3,
-                                .col-4,
-                                .col-5,
-                                .col-6,
-                                .col-7,
-                                .col-8,
-                                .col-9,
-                                .col-10,
-                                .col-11,
-                                .col-12 {
-                                    border: 0px solid green;
-                                }
-                                
-                                #header {
-                                    background: orange;
-                                }
-                                
-                                #menu {
-                                    background: pink;
-                                }
-                                
-                                #content {
-                                    background: white;
-                                }
-                                
-                                #sidebar {
-                                    background: lightblue;
-                                }
-                                
-                                #footer {
-                                    background: orange;
-                                }
+                                                    .container {
+                                                        border: 0px solid black;
+                                                    }
+                                                    
+                                                    .row {
+                                                        border: 0px solid red;
+                                                    }
+                                                    
+                                                    body {
+                                                        font-family: Arial, sans-serif;
+                                                        background-color: #f0f0f0;
+                                                        margin: 0;
+                                                        padding: 0;
+                                                    }
+                                                    
+                                                    .container {
+                                                        padding: 20px;
+                                                        background-color: #fff;
+                                                        border-radius: 5px;
+                                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                                    }
+                                                    
+                                                    #header {
+                                                        background: #ff8c00;
+                                                        color: #fff;
+                                                        padding: 20px;
+                                                        border-radius: 5px 5px 0 0;
+                                                    }
+                                                    
+                                                    h1 {
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    #menu {
+                                                        background: #ffb6c1;
+                                                        padding: 10px 0;
+                                                        border-radius: 5px;
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    
+                                                    #menu ul {
+                                                        list-style: none;
+                                                        margin: 0;
+                                                        padding: 0;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    #menu ul li {
+                                                        display: inline-block;
+                                                        margin-right: 20px;
+                                                    }
+                                                    
+                                                    #menu ul li:last-child {
+                                                        margin-right: 0;
+                                                    }
+                                                    
+                                                    #menu ul li a {
+                                                        text-decoration: none;
+                                                        color: #333;
+                                                        font-weight: bold;
+                                                    }
+                                                    
+                                                    #content,
+                                                    #sidebar {
+                                                        background: #e0ffff;
+                                                        border-radius: 5px;
+                                                        padding: 20px;
+                                                    }
+                                                    
+                                                    .gallery img {
+                                                        max-width: 100%;
+                                                        height: auto;
+                                                        display: block;
+                                                        margin-bottom: 10px;
+                                                        border-radius: 5px;
+                                                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+                                                        transition: transform 0.3s ease-in-out;
+                                                    }
+                                                    
+                                                    .gallery img:hover {
+                                                        transform: scale(1.05);
+                                                    }
+                                                    
+                                                    #footer {
+                                                        background: #ff8c00;
+                                                        color: #fff;
+                                                        padding: 20px;
+                                                        border-radius: 0 0 5px 5px;
+                                                    }
+                                                    
+                                                    @media (max-width: 768px) {
+                                                        #menu ul li {
+                                                            display: block;
+                                                            margin-bottom: 10px;
+                                                            text-align: center;
+                                                        }
+                                                    }
+                                                    
+                                                    .sub-heading {
+                                                        background-color: #f9f9f9;
+                                                        padding: 20px;
+                                                        border-radius: 5px;
+                                                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    
+                                                    .sub-heading h2 {
+                                                        color: #333;
+                                                        font-size: 28px;
+                                                        margin-bottom: 10px;
+                                                    }
+                                                    
+                                                    .sub-heading p {
+                                                        color: #666;
+                                                        font-size: 16px;
+                                                        line-height: 1.6;
+                                                    }
